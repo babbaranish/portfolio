@@ -131,7 +131,7 @@
         <br />
         <div class="row">
           <div class="col-md-12">
-            <p class=" text-center best_work" >
+            <p class=" text-center best_work">
               My Best Design Delivered Over The Globe to More Than 1000+
               Satisfied Clients
             </p>
@@ -179,20 +179,25 @@
           <div class="col-md-12">
             <div class="row">
               <div class="col-lg-6 col-md-12 col-sm-12">
-                <form name="RegForm" class="form-bg mt-4" onsubmit="return wrongText()">
+                <form
+                  name="RegForm"
+                  class="form-bg mt-4"
+                  
+                >
                   <label for="Name" class="label">Name</label>
                   <input
                     class="form-control input-field"
                     type="text"
                     name="Name"
                     placeholder="Name"
+                    required
                   />
-                  <label for="Mobile" class="label">Mobile</label>
+                  <label for="Mobile" class="label">Mobile No.</label>
                   <input
                     class="form-control input-field"
                     type="text"
                     name="Mobile"
-                    placeholder="Mobile"
+                    placeholder="Mobile No. (Optional)"
                   />
                   <label for="E-Mail" class="label">E-Mail</label>
                   <input
@@ -200,18 +205,18 @@
                     type="text"
                     name="E-Mail"
                     placeholder="E-Mail"
+                    required
                   />
-                  <div class="form-group">
-                    <label for="Message" class="label">Message</label>
-                    <textarea
-                      id="my-textarea"
-                      class="form-control"
-                      name="message"
-                      placeholder=" Enter your message"
-                      rows="2"
-                    ></textarea>
-                  </div>
-                  <button class="btn btn-lg form-btn" type="submit">
+                  <label for="Message" class="label">Message</label>
+                  <textarea
+                    id="my-textarea"
+                    class="form-control"
+                    name="message"
+                    placeholder=" Enter your message"
+                    rows="2"
+                    required
+                  ></textarea>
+                  <button class="btn btn-lg form-btn" type="submit" onclick="myFunction()">
                     Submit <i class="fas fa-paper-plane"></i>
                   </button>
                 </form>
@@ -258,7 +263,7 @@
                 </a>
               </span>
               <span id="twitter-icon" class="icons">
-                <a href="https://twitter.com/AnishLord" title="Anish Babbar">
+                <a href="https://twitter.com/AnishLord" title="Anish Babbar" >
                   <i class="fab fa-twitter"></i>
                 </a>
               </span>
@@ -266,7 +271,7 @@
           </div>
         </div>
         <div class="col-md-12">
-          <div class="text-center text-white" style="padding: 30px;">
+          <div class="text-center text-white" style="padding: 20px;">
             Copyright &copy; Anish Babbar
           </div>
         </div>

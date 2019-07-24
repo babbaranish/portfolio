@@ -76,3 +76,8 @@ function wrongText()
 
     return true; 
 }
+
+function myFunction() {
+    alert(" We will reach you As Soon As Possible :3 ")
+}
+
