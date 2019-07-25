@@ -21,6 +21,9 @@
     .contact {
         height: auto;
     }
+    .btn-bg {
+        margin-bottom: 35%;
+    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -35,6 +38,9 @@
     .contact {
         height: auto;
     }
+    .btn-bg {
+        margin-bottom: 40%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -48,6 +54,9 @@
     }
     .contact {
         height: auto;
+    }
+    .btn-bg {
+        margin-bottom: 40%;
     }
 }
 
@@ -86,7 +95,9 @@
         font-size: 2.5rem;
         margin-top: 30px;
     }
-    
+    .btn-bg {
+        margin-bottom: 40%;
+    }
 }
 
 @media only screen and (max-width: 320px) {

@@ -42,7 +42,7 @@ body {
 .head-img {
     background-image: url(../img/PortfolioBackground1.jpg);
     background-size: 110% 100%;
-    height: 91vh;
+    height: auto;
 }
 
 nav {
@@ -94,6 +94,7 @@ ul li {
     cursor: pointer;
     transition: .4s;
     animation: btn_up .5s ease-in;
+    margin-bottom: 15%;
 }
 
 .btn-bg:hover {
